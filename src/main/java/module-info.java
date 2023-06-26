@@ -3,6 +3,8 @@ module com.example.swtprojekt {
     requires javafx.fxml;
 
 
-    opens com.example.swtprojekt to javafx.fxml;
-    exports com.example.swtprojekt;
+    opens View to javafx.fxml;
+    exports View;
+    opens Controller to javafx.fxml;
+    exports Controller;
 }
