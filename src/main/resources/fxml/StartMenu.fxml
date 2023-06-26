@@ -14,7 +14,7 @@
             </VBox.margin></Label>
         <HBox alignment="CENTER" spacing="40.0">
             <Button prefWidth="100.0" styleClass="menu-button" text="Play"/>
-            <Button prefWidth="100.0" styleClass="menu-button" text="Exit"/>
+            <Button prefWidth="100.0" styleClass="menu-button" onAction="#exit" text="Exit"/>
         </HBox>
     </children>
 </VBox>
